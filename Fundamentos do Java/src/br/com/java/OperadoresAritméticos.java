@@ -5,12 +5,18 @@ import java.util.Scanner;
 public class OperadoresAritméticos {
 
 	public static void main(String[] args) {
-		float x, y;
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Operadores Aritméticos");
+		// Linha abaixo cria variáveis
+		float x, y;
+		// Linhas abaixo cria cabeçalho
+		System.out.println("<><><> Operadores Aritméticos <><><>");
+		System.out.println(" ");
+		// Entrada
 		System.out.print("Digite o valor de x: ");
+		// A linha abaixo usa o objeto teclado para a variável x
 		x = teclado.nextFloat();
 		System.out.print("Digite o valor de y: ");
+		// A linha abaixo usa o objeto teclado para a variável y
 		y = teclado.nextFloat();
 		// Soma
 		System.out.println("x + y = " + (x + y));

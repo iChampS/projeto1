@@ -23,7 +23,24 @@ public class TemaLivreIMC {
 		// + Concatena(junta) um texto e código de numeração para 
 		// ficar apenas 1 número depois da vírgula o conteúdo da variável imc
 		System.out.printf("Sua massa corporal: " + "%.1f", imc);
-		
+		System.out.println(" ");
+		// Critérios
+		// Menor de 17 - Muito abaixo do peso
+		// 17, 18,4 - Abaixo do peso
+		// 18,5 e 24,99 - Peso normal
+		// 25 e 29,99 - Acima do peso
+		// 30 e 34,99 - Obesidade I
+		// 35 e 39,99 - Obesidade II (severa)
+		// Acima de 40 - Obesidade III (mórbida)
+		if (imc < 17) {
+			System.out.println("Você está abaixo do peso");
+	    } else {
+	    if (imc <= 25) {
+	    	System.out.println("Você está no peso ideal");
+	    } else {
+	    	System.out.println("Você está acima do peso");
+	    }
+	    }
 	}
 
 }
