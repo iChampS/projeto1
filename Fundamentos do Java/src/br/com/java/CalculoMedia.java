@@ -23,7 +23,7 @@ public class CalculoMedia {
 		media = (nota1+ nota2) /2;
 		// Saída
 		// + Concatena(junta) um texto com o conteúdo da variável média
-		System.out.println("Média final: " + media);
+		System.out.println("Média Final: " + media);
 		// Estruta condicional para verificar status do aluno:
 		// Menor ou igual a 2 = reprovado
 		// Entre 2 e 5 = recuperação

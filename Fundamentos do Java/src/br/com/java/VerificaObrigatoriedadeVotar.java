@@ -21,11 +21,11 @@ public class VerificaObrigatoriedadeVotar {
 		 * Entre 18 e 70 - Obrigatório votar
 		 */
 		if (idade < 16) {
-			System.out.println("Proibido votar");
+			System.out.println("Proibido Votar");
 		} else if (idade == 16 || idade == 17 || idade > 70) {
-			System.out.println("Voto facultativo");
+			System.out.println("Voto Facultativo");
 		} else {
-			System.out.println("Voto obrigatório");
+			System.out.println("Voto Obrigatório");
 		}
 	}
 

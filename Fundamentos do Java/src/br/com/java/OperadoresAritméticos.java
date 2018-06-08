@@ -12,28 +12,28 @@ public class OperadoresAritméticos {
 		System.out.println("<><><> Operadores Aritméticos <><><>");
 		System.out.println(" ");
 		// Entrada
-		System.out.print("Digite o valor de x: ");
+		System.out.print("Digite o Valor de X: ");
 		// A linha abaixo usa o objeto teclado para a variável x
 		x = teclado.nextFloat();
-		System.out.print("Digite o valor de y: ");
+		System.out.print("Digite o Valor de Y: ");
 		// A linha abaixo usa o objeto teclado para a variável y
 		y = teclado.nextFloat();
 		// Soma
-		System.out.println("x + y = " + (x + y));
+		System.out.println("X + Y = " + (x + y));
 		// Subtração
-		System.out.println("x - y = " + (x - y));
+		System.out.println("X - Y = " + (x - y));
 		// Divisão
-		System.out.println("x / y = " + (x / y));
+		System.out.println("X / Y = " + (x / y));
 		// Multiplicação
-		System.out.println("x * y = " + (x * y));
+		System.out.println("X * Y = " + (x * y));
 		// Módulo (usado para obter o resto da divisão)
-		System.out.println("x % y = " + (x % y));
+		System.out.println("X % Y = " + (x % y));
 		// Incremento x++ (equivale a x = x + 1)
 		x++;
-		System.out.println("x++ " + x);
+		System.out.println("X++ " + x);
 		// Decremento y-- (equivale a y = y - 1)
 		y--;
-		System.out.println("y-- " + y);
+		System.out.println("Y-- " + y);
 
 	}
 

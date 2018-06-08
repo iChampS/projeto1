@@ -13,11 +13,11 @@ public class PDV {
 		System.out.println(" ");;
 		// Entrada
 		// A linha abaixo indica o valor do produto para o usuário
-		System.out.print("Preço de custo: ");
+		System.out.print("Preço de Custo: ");
 		// A linha abaixo usa o objeto teclado para a variável custo
 		custo = teclado.nextDouble();
 		// A linha abaixo indica a porcentagem de lucro para o usuário
-		System.out.print("% de desconto: ");
+		System.out.print("% de Desconto: ");
 		// A linha abaixo usa o objeto teclado para a variável desconto
 		desconto = teclado.nextDouble();
 		// Processamento

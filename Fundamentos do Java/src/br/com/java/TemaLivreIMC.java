@@ -22,7 +22,7 @@ public class TemaLivreIMC {
 		// Saída
 		// + Concatena(junta) um texto e código de numeração para 
 		// ficar apenas 1 número depois da vírgula o conteúdo da variável imc
-		System.out.printf("Sua massa corporal: " + "%.1f", imc);
+		System.out.printf("Sua Massa Corporal: " + "%.1f", imc);
 		System.out.println(" ");
 		// Critérios
 		// Menor de 17 - Muito abaixo do peso

@@ -14,7 +14,7 @@ public class ÁreaDoCírculo {
 		// Valor da variável pi
 		pi = 3.14;
 		// Entrada
-		System.out.print("Digite o valor de raio: ");
+		System.out.print("Digite o Valor de Raio: ");
 		// A linha abaixo usa o objeto teclado para a variável raio
 		raio = teclado.nextDouble();
 		// Processamento

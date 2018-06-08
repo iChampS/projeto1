@@ -14,16 +14,16 @@ public class ConversãoDólarReal {
 		// Valor da variável dolar
 		dolar = 3.73;
 		// Entrada
-		System.out.print("Digite o valor em dólar: ");
+		System.out.print("Digite o Valor em Dólar: ");
 		// A linha abaixo usa o objeto teclado para a variável real
 		real = teclado.nextDouble();
 		// Processamento
 		real = real * dolar;
 		// A linha abaixo indica o preço do dólar para o usuário
-		System.out.println("Valor do dólar: 3.73");
+		System.out.println("Valor do Dólar: 3.73");
 		// Sair
 		// + Concatena(junta) um texto com o conteúdo da variável real
-		System.out.println("Valor do dólar em real: " + real);
+		System.out.println("Valor do Dólar em Real: " + real);
 		
 	}
 

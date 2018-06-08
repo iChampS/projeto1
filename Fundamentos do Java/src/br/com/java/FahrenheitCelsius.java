@@ -14,7 +14,7 @@ public class FahrenheitCelsius {
 		// Valor da variável F (Fahrenheit)
 		F = 32;
 		// Entrada
-		System.out.print("Digite o valor de Fahrenheit (F): ");
+		System.out.print("Digite o Valor de Fahrenheit (F): ");
 		// A linha abaixo usa o objeto teclado para a variável C (Celsius)
 		C = teclado.nextDouble();
 		// Processamento
